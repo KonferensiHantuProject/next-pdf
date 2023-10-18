@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import GeneratePDF from '@/components/GeneratePDF'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,8 @@ export default function Home({ people }) {
             ))}
           </ul>
         </div>
+
+        <GeneratePDF person={people}/>
     </div>
   )
 }
