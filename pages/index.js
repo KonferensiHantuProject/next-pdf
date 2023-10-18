@@ -6,13 +6,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home({ people }) {
   return (
-    <div>
-        <h1 className='text-center text-4xl font-bold mt-3'>Converting HTML Table to PDF</h1>
+    <div className="min-h-screen bg-slate-500">
+        <h1 className='text-center text-4xl font-bold pt-4 mb-3'>Converting HTML Table to PDF</h1>
 
         {/* People */}
         <div className='text-center'>
           <ul>
-            {people.map(({name, i}) => (
+            {people.map(({name},i) => (
               <li key={i}>{name}</li>
             ))}
           </ul>
