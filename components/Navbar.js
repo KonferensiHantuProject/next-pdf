@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="flex justify-evenly min-w-[300px] items-center">
                 <Link onClick={() => router.reload()}  className="hover:font-bold" href="/">Home</Link>
                 <Link className="hover:font-bold" href="/about">About</Link>
-                <Link className="hover:font-bold" href="/bone">Listing</Link>
+                <Link className="hover:font-bold" href="/convert">PDF</Link>
             </div>
         </nav>
      );
