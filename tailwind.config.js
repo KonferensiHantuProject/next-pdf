@@ -15,6 +15,14 @@ module.exports = {
       colors: {
         'primary': '#E8DCCA',
       },
+      minHeight: {
+        '500': '500px',
+        '250': '250px',
+      },
+      minWidth: {
+        '500': '500px',
+        '250': '250px',
+      }
     },
   },
   plugins: [],
